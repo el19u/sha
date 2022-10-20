@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+請假系統
 
-Things you may want to cover:
+一間公司有很多員工，一個員工只會有一間公司
+公司 has_many 員工
+員工 belongs_to 公司
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+一個員工可以有很多假別，一個假別可以有很多員工
+員工 has_many 假別
+假別 has_many 員工
+多對多
