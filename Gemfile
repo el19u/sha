@@ -23,6 +23,8 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "faker"
   gem "rubocop", require: false
+  gem "rubocop-github", require: false
+  gem "rubocop-performance", require: false
 end
 
 group :development do
