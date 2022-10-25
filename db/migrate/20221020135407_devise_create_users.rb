@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# frazen_string_literal: true
 
 class DeviseCreateUsers < ActiveRecord::Migration[7.0]
   def change
@@ -40,5 +40,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
     add_index :users, :reset_password_token, unique: true
     # add_index :users, :confirmation_token,   unique: true
     # add_index :users, :unlock_token,         unique: true
+
   end
 end
